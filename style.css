@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+       
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) rgba(0,0,0,0.5), url(5.jpg));
+    background-image: url(5.jpg);
+    background-position: center;
+    background-size: contain;
+    padding: 20%;    
+}
+
+.logo{
+    color: red;
+    margin-top: -20%;
+    margin-right: 30%;  
+
+}

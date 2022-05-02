@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+       
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+            
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 0%;  
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+ }
+
+ ul li{
+     list-style: none;
+     margin-bottom: 62px;
+     margin-top: 27px;
+     font-size: 14px;
+     margin-left: 55px;
+      }
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    }
+
+ul li a:hover{
+    color: red;
+}
+.search{
+width: 330px;
+float: left;
+margin-left: 70px;
+
+} 
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 3px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 1px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius: 5px;
+
+}  
+.btn{
+    width: 100px;
+    padding: 4px;
+    margin-top: 1px;
+    background: orangered;
+    border: 2px solid orangered;
+    color: beige;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+} 
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 100%;
+    color: beige;
+    margin: auto;
+    position: relative;
+    height: auto;
+       
+}
+.content .par{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;    
+}
+.cn:hover{
+    background-color: bisque;
+}
+
+.content span{
+    color: red;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, black, black);
+    position: absolute;
+    top: 90px;
+    left: 920px; 
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: red;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+.form input{
+    width: 220px;
+    padding: 5px;
+    border-radius: 10px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 50px, 0px, 30px, 0px;
+    height: 35px;
+
+}
+.form .btnn{
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration-color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    width: 220px;
+}
+.form .btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btnn:hover{
+    background: white;
+    color: white;
+}
+
+.link h4{
+    text-align: center;
+}
+.link a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.link a span{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.link h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.icon a{
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-top: 5px;
+    transition: 0.5 ease;
+}
+.icon a:hover{
+    background-color: red;
+}
+
+
