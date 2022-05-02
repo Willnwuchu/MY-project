@@ -8,11 +8,12 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(5.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
+
             
 }
 .navbar{
-    width: 1200px;
+    width: 2000px;
     height: 75px;
     margin: auto;
 
@@ -23,14 +24,14 @@
     height: 70px;
 }
 
-.logo{
+.navbar .logo{
     color: red;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 0px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 0%;  
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 2000px;
+ 
 
 }
 .menu{
@@ -67,16 +68,16 @@ ul li a:hover{
 .search{
 width: 330px;
 float: left;
-margin-left: 70px;
+margin-left: 120px;
 
 } 
 .srch{
     font-family: 'Times New Roman';
-    width: 200px;
+    width: 140px;
     height: 20px;
     background: transparent;
     border: 1px solid #ff7200;
-    margin-top: 3px;
+    margin-top: 25px;
     color: white;
     border-right: none;
     font-size: 16px;
@@ -84,12 +85,13 @@ margin-left: 70px;
     padding: 1px;
     border-bottom-left-radius:5px;
     border-top-left-radius: 5px;
+    margin-left: 120px;
 
 }  
 .btn{
-    width: 100px;
+    width: 70px;
     padding: 4px;
-    margin-top: 1px;
+    margin-top: 22px;
     background: orangered;
     border: 2px solid orangered;
     color: beige;
@@ -208,30 +210,35 @@ margin-left: 70px;
 
 .link h4{
     text-align: center;
+    margin-top: 10px;
 }
 .link a{
-    color: red;
+    color: solid orangered;
     text-decoration: none;
     text-align: center;
     margin-left: 25%;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .link a span{
     color: white;
     font-size: 12px;
     text-decoration: none;
+    text-align: center;
 }
 .link h3{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .icon a{
     align-content: center;
     text-decoration: none;
     color: white;
     padding-left: 30px;
-    padding-top: 5px;
+    padding-top: 1px;
     transition: 0.5 ease;
+    height: 20px;
 }
 .icon a:hover{
     background-color: red;
